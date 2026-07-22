@@ -1,0 +1,82 @@
+{
+  "genre": [
+    "Homme (il/lui)",
+    "Femme (elle/elle)",
+    "Non-binaire (iel)",
+    "Genre fluide",
+    "Autre"
+  ],
+  "corpulence": [
+    "Mince",
+    "Élancé(e)",
+    "Athlétique",
+    "Musclé(e)",
+    "Robuste",
+    "Corpulent(e)"
+  ],
+  "Silhouette": [
+    "Fine",
+    "Athlétique",
+    "Sablier",
+    "Poire (Triangle)",
+    "Triangle inversé",
+    "Voluptueuse",
+    "Carrée",
+    "Androgyne"
+  ],
+  "Bonnet": [
+    "Non applicable",
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H"
+  ],
+  "couleur_cheveux": [
+    "Noir",
+    "Brun / Châtain foncé",
+    "Châtain",
+    "Blond",
+    "Blond platine",
+    "Roux",
+    "Gris / Argenté",
+    "Blanc",
+    "Autre (teinture)"
+  ],
+  "cheveux": [
+    "Très courts",
+    "Courts",
+    "Mi-longs",
+    "Longs",
+    "Très longs",
+    "Chauve",
+    "Crâne rasé"
+  ],
+  "yeux": [
+    "Bleus",
+    "Verts",
+    "Marron clair",
+    "Marron foncé",
+    "Noirs",
+    "Gris",
+    "Ambre / Dorés",
+    "Hétérochromie"
+  ],
+  "ton": [
+    "Amical et chaleureux",
+    "Sarcastique et taquin",
+    "Professionnel et posé",
+    "Mystérieux et énigmatique",
+    "Froid et distant",
+    "Séducteur / Coquin"
+  ],
+  "style_reponse": [
+    "Court et direct",
+    "Descriptif et immersif",
+    "Narratif détaillé",
+    "Humoristique"
+  ]
+}
