@@ -39,8 +39,8 @@ if (!is_array($stylesActuels)) {
         </select>
 
         <?= $form->ConstructeurChamp('Âge', 'age', $model['age'] ?? '', 'text'); ?>
-        <?= $form->ConstructeurChamp('Date de naissance', 'date_de_naissance', $model['date_de_naissance'] ?? '', 'date'); ?>
-        <?= $form->ConstructeurChamp('Heure de naissance', 'heure_de_naissance', $model['heure_de_naissance'] ?? '', 'time'); ?>
+        <?= $form->ConstructeurChamp('Date de naissance (AAAA-MM-JJ)', 'date_de_naissance', $model['date_de_naissance'] ?? '', 'text'); ?>
+        <?= $form->ConstructeurChamp('Heure de naissance (HH:MM)', 'heure_de_naissance', $model['heure_de_naissance'] ?? '', 'text'); ?>
         <?= $form->ConstructeurChamp('Lieu de naissance', 'lieu_de_naissance', $model['lieu_de_naissance'] ?? '', 'text'); ?>
         <?= $form->ConstructeurChamp('Description courte', 'description_courte', $model['description_courte'] ?? '', 'textarea', [60, 3]); ?>
     </fieldset>
@@ -69,9 +69,9 @@ if (!is_array($stylesActuels)) {
             <?php endforeach; ?>
         </select>
 
-        <?= $form->ConstructeurChamp('Poids (kg)', 'poids', $model['poids'] ?? '', 'number'); ?>
-        <?= $form->ConstructeurChamp('Taille (cm)', 'taille', $model['taille'] ?? '', 'number'); ?>
-        <?= $form->ConstructeurChamp('Poitrine', 'Poitrine', $model['Poitrine'] ?? '', 'number'); ?>
+        <?= $form->ConstructeurChamp('Poids (kg)', 'poids', $model['poids'] ?? '', 'text'); ?>
+        <?= $form->ConstructeurChamp('Taille (cm)', 'taille', $model['taille'] ?? '', 'text'); ?>
+        <?= $form->ConstructeurChamp('Poitrine', 'Poitrine', $model['Poitrine'] ?? '', 'text'); ?>
 
         <label>Bonnet</label>
         <select name="Bonnet" class="form-control">
@@ -81,8 +81,8 @@ if (!is_array($stylesActuels)) {
             <?php endforeach; ?>
         </select>
 
-        <?= $form->ConstructeurChamp('Taille (mensuration)', 'Taille_mensuration', $model['Taille_mensuration'] ?? '', 'number'); ?>
-        <?= $form->ConstructeurChamp('Hanche', 'Hanche', $model['Hanche'] ?? '', 'number'); ?>
+        <?= $form->ConstructeurChamp('Taille (mensuration)', 'Taille_mensuration', $model['Taille_mensuration'] ?? '', 'text'); ?>
+        <?= $form->ConstructeurChamp('Hanche', 'Hanche', $model['Hanche'] ?? '', 'text'); ?>
 
         <label>Couleur des cheveux</label>
         <select name="couleur_cheveux" class="form-control">
@@ -108,8 +108,8 @@ if (!is_array($stylesActuels)) {
             <?php endforeach; ?>
         </select>
 
-        <?= $form->ConstructeurChamp('Taille (sexe / érection) en cm', 'taille_sexe', $model['taille_sexe'] ?? '', 'number'); ?>
-        <?= $form->ConstructeurChamp('Diamètre (sexe / érection) en cm', 'diametre_sexe', $model['diametre_sexe'] ?? '', 'number'); ?>
+        <?= $form->ConstructeurChamp('Taille (sexe / érection) en cm', 'taille_sexe', $model['taille_sexe'] ?? '', 'text'); ?>
+        <?= $form->ConstructeurChamp('Diamètre (sexe / érection) en cm', 'diametre_sexe', $model['diametre_sexe'] ?? '', 'text'); ?>
         <?= $form->ConstructeurChamp('Traits distinctifs', 'traits_distinctifs', $model['traits_distinctifs'] ?? '', 'textarea', [60, 2]); ?>
         <?= $form->ConstructeurChamp('Style vestimentaire', 'style_vestimentaire', $model['style_vestimentaire'] ?? '', 'text'); ?>
     </fieldset>
